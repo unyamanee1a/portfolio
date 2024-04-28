@@ -68,7 +68,7 @@ body {
     flex-direction: column;
     gap: 20px;
     width: 430px;
-    height: 252px;
+    height: 260px;
     padding-top: 64px;
 }
 
@@ -95,16 +95,89 @@ body {
     flex-direction: column;
 }
 
-.content .menu {
+.content .menu1 {
     background-color: #BADA55;
     color: black;
     font-size: 18px;
     font-weight: 600;
     border-radius: 100%;
     border-color: #666;
-    border-width: 1px;
+    border:solid 1px;
     width: 90px; height: 90px;
-    text-align: center;
-    padding-left: 10px;
-    padding-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.menu2 {
+    background-color: #EDA202;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 100%;
+    border-color: #666;
+    border: solid 1px;
+    width: 90px; height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu3 {
+    background-color: #80D7D9;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 100%;
+    border-color: #666;
+    border:solid 1px;
+    width: 90px; height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu4 {
+    background-color: #C7C7C7;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 100%;
+    border-color: #666;
+    border: solid 1px;
+    width: 90px; height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle {
+    display: flex;
+    gap: 10px;
+    
+}
+.bottom-bar {
+    display: flex;
+    gap: 300px;
+    position: fixed;
+    bottom: 16px;
+    left: 24px;
+}
+.bottom-left {
+    display: flex;
+    flex-direction: column;
+}
+.bottom-bar .head {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.bottom-bar .contact {
+    font-size: 14px;
+    font-weight: 300;
+    color: black;
+}
+
+a {
+    color: #000000;
+}
+

@@ -1,0 +1,48 @@
+body {
+    background-color: #F2F2F2;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    width: 100%;
+    margin: 0;
+}
+.navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+}
+
+.left .university {
+    color: #262626;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.left {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+.left .bullet {
+    background-color: #80D7D9;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.left .name {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.right .menu {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+.right .menu-divider {
+    width: 1px;
+    height: 18px;
+    background-color: #000000;
+
+}
